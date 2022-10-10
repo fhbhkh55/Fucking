@@ -56,7 +56,7 @@ class MainWindow(MainWindow_style):
 			if self.btn3.isChecked():#网站发送
 				self.loop=Loop('网站',self.time,self.queue,self.btn6.text(),self.dirs)
 			else:
-				self.loop=Loop('字典',self.time,self.queue,self.dirs)
+				self.loop=Loop('字典',self.time,self.queue,None,self.dirs)
 			self.thread=Thread(target=self.loop.run,name='loop_run',args=())
 			self.thread.start()
 			sleep(0.1)
