@@ -21,3 +21,5 @@
 
 
 <u>修改自</u>：[turnflowerdown/superFuck](https://github.com/turnflowerdown/superFuck)
+
+赞助地址：[Mr.eAt/爱发电](https://afdian.net/a/MreAt)
